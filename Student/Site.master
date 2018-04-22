@@ -1,0 +1,161 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Student/Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Niet ChatBot</title>
+    <!--css-->
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Studies Plus Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--js-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/numscroller-1.0.js"></script>
+    <!--js-->
+    <!--webfonts-->
+    <link href='//fonts.googleapis.com/css?family=Cagliostro' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+        rel='stylesheet' type='text/css'>
+    <!--webfonts-->
+</head>
+<body>
+    <form runat="server">
+    <!--header-->
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="detail">
+                    <ul>
+                        <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i></li>
+                        <li><i class="glyphicon glyphicon-time" aria-hidden="true"></i>Mon-Sat 9:30 Am to 16:30
+                            Pm </li>
+                    </ul>
+                </div>
+                <div class="indicate">
+                    <p>
+                        <i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Noida Institute
+                        Of Engineering & Technology<span>
+                    </p>
+                    .
+                </div>
+                <div class="clearfix">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="navbar navbar-default">
+					<div class="container-fluid">
+				<!---Brand and toggle get grouped for better mobile display--->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>				  
+							<div class="navbar-brand">
+								<h1><a href="index.html">NIET</a></h1>
+							</div>
+						</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<nav class="link-effect-2" id="link-effect-2">
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="../search.aspx"><span data-hover="May I help you?">May I help you</span></a></li>
+                                    <li class="active"><a href="../login.aspx"><span data-hover="Login">Signout</span></a></li>
+									
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</nav>
+        </div>
+    </div>
+    <!--header-->
+    <!--content-->
+    <div class="content">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+  
+       <div class="footer-w3">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-4">
+            <br />
+            <h4>
+                About Us
+            </h4>
+            <br />
+            <p>
+                Over the years now, NIET has built quite a special position in the private higher
+                education sector.<span> With its distinctive culture, it provides a clear student-centered
+                    environment in which to explore existing technical knowledge, and gain new learning
+                    at the leading edges of technology development.</span></p>
+        </div>
+        <div class="col-md-4">
+            <br />
+            <h4>
+                Contact Us</h4>
+            <br />
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <i class="glyphicon glyphicon-map-marker"></i>Noida Institute Of Engineering & Technology<span>
+                                ,19,Knowledge Park-2, Greater Noida, INDIA.</span></p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="glyphicon glyphicon-earphone"></i>0120-2328062<span>/ Admission Enquiry +91
+                                9211191117</span></p>
+                    </li>
+                    <!--<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:example@mail.com">-->
+                    <!--  example@mail.com</a></li>-->
+                    <li>
+                        <p>
+                            <i class="glyphicon glyphicon-time"></i>Mon-Sat 09:30 am to 16:30 pm</p>
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <div class="col-md-3">
+            <br />
+            <h4>
+                Mail Us</h4>
+            <br />
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Director: director@niet.co.in
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Registrar: registrar@niet.co.in</p>
+                    </li>
+              
+                    <li>
+                        <p>
+                            Admission : admission@niet.co.in
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <div class="clearfix">
+        </div>
+    </div>
+
+    </form>
+    <!---copy--->
+</body>
+</html>

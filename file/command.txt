@@ -1,0 +1,7 @@
+abcdef
+
+ab for fan on off
+
+cd for buzzer on off
+
+e for first card f for second card 

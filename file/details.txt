@@ -1,0 +1,17 @@
+
++===================================+
+| Domain: adinathfurnituremall.com/cpanel
+| Ip: 111.118.215.98 (n)
+| HasCgi: y
+| UserName: adinathfurniture
+| PassWord: $NZytg-48btQ
+| CpanelMod: paper_lantern
+| HomeRoot: /home
+| Quota: 200 Meg
+| NameServer1: ns1.bh-in-16.webhostbox.net
+| NameServer2: ns2.bh-in-16.webhostbox.net
+| NameServer3: 
+| NameServer4: 
+| Contact Email: 
+| Package: default
+| Feature List: default
